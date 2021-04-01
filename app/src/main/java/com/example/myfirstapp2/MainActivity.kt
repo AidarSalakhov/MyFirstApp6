@@ -26,4 +26,8 @@ class MainActivity : AppCompatActivity()
     override fun onPause() {
         super.onPause()
     }
+
+    override fun onContentChanged() {
+        super.onContentChanged()
+    }
 }
